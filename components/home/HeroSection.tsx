@@ -70,12 +70,9 @@ export default function HeroSection() {
             <Button variant="white" href="/contact">
               Apply Now
             </Button>
-            <a
-              href="/emi-calculator"
-              className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition-colors duration-200"
-            >
+            <Button variant="whiteOutline" href="/emi-calculator">
               Calculate EMI
-            </a>
+            </Button>
           </div>
 
           {/* Trust Stats */}
