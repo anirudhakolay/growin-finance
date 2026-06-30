@@ -67,7 +67,7 @@ export default function HeroSection() {
           </p>
 
           <div className="flex flex-wrap gap-4 mb-12">
-            <Button variant="primary" href="/contact">
+            <Button variant="white" href="/contact">
               Apply Now
             </Button>
             <a
