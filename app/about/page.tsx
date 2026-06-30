@@ -32,7 +32,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section className="bg-white py-16">
+      <section className="bg-white pt-16 pb-8 md:pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left */}
@@ -86,9 +86,9 @@ export default function AboutPage() {
       </section>
 
       {/* Meet Our Partners */}
-      <section className="bg-gray-50 py-16 md:py-24">
+      <section className="bg-gray-50 pt-8 pb-16 md:pt-12 md:pb-24">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-16" style={{ color: '#1B3F8B' }}>
+          <h2 className="text-4xl font-bold text-center mb-10" style={{ color: '#1B3F8B' }}>
             Meet Our Founders
           </h2>
           

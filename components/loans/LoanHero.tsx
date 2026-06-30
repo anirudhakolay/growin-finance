@@ -61,7 +61,7 @@ export default function LoanHero({ loan }: LoanHeroProps) {
               <Button variant="white" size="lg" href="/contact">
                 Apply Now
               </Button>
-              <Button variant="outline" size="lg" href="/emi-calculator">
+              <Button variant="whiteOutline" size="lg" href="/emi-calculator">
                 Calculate EMI
               </Button>
             </div>

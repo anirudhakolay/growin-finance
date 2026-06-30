@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 interface ButtonProps {
-  variant?: 'primary' | 'secondary' | 'outline' | 'white';
+  variant?: 'primary' | 'secondary' | 'outline' | 'white' | 'whiteOutline';
   size?: 'sm' | 'md' | 'lg';
   href?: string;
   onClick?: () => void;
@@ -31,6 +31,7 @@ export default function Button({
     secondary: 'bg-orange-500 text-white hover:bg-orange-600 focus:ring-orange-400',
     outline: 'border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white focus:ring-blue-500',
     white: 'bg-white text-blue-800 hover:bg-gray-100 focus:ring-blue-300',
+    whiteOutline: 'border-2 border-white text-white hover:bg-white hover:text-blue-800 focus:ring-white',
   };
 
   const sizeClasses = {
